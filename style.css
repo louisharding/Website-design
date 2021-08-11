@@ -1,0 +1,192 @@
+body {
+	background-color: white;
+}
+
+
+/*applies to the logo which appears throughout all pages, the logo also acts as an internal link to the index*/
+img.logo {
+	right: 10.5%;
+	float: right;
+	max-width: 100px;
+	margin-right: 0.5%;
+	margin-top: 0.5%;
+	position: absolute;
+	z-index: 1;
+}
+
+/*tailored styles for the 'about us' image*/
+img.about {
+
+	max-width: 80%;
+	margin-left: 10%;
+	position: relative;
+}
+
+/*These prod1/2 styles are for the product images, where each style is respective to the flow of images shown*/
+img.prod1{
+	float: left;
+}
+
+img.prod2{
+	float: right;
+}
+/*These are the common styles for the aformentioned styles*/
+img.prod1, .prod2 {
+	position: relative;
+	max-width: 43%;
+	margin: 7%;
+}
+/*Style for the product divider which breaks different products on a given page*/
+.product1 {
+	position: relative;
+	width: 100%;
+	height: 75%;
+}
+/*Similar to the prod1/2 styles, below are styles for the respective text descriptions for the images*/
+.textDescription {
+    right: 0;
+    max-width: 35%;
+}
+
+.textDescription2 {
+    left: 0;
+    max-width: 50%;
+}
+/*Common styles in both of the above*/
+.textDescription, .texDescription2 {
+    position: absolute;
+	margin: 2%;
+}
+
+
+/*Below dictated the standard paragraph style when not otherwise defined*/
+p {
+	font-family: calibri;
+	color: black;
+	text-decoration: none;
+}
+
+/*Styles for all links in the website, note that there is no text decoration, as this keeps it simple and consistent*/
+a {
+	font-family: calibri;
+	color: black;
+	text-decoration: none;
+}
+
+/*Style for quotes used in index page*/
+#quotes {
+
+	font-family: tahoma;
+	font-size: 20px;
+}
+
+/*The header div which appears in all pages*/
+#header {
+	color: black;
+	font-family: tahoma;
+	font-size: 36px;
+	text-align: left;
+	margin: 0px;
+	margin: 0 0 0px 2px;
+}
+
+/*Contains the main content of a given page*/
+#container {
+	background-color: rgb(255, 255, 255);	
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	min-height: 99%;
+}
+
+/*Main and all content of a page*/
+#main {
+	padding: 2% 5%;
+}
+
+/*Appears at the bottom of every page*/
+#footer {
+	text-align: right;
+	padding: 5px;
+	background-color: gray;
+	clear: both;
+}
+
+/*Unorganised list, used for containing the navigation bar elements*/
+ul { 
+	margin-top: 1%;
+	padding: 0px;
+	overflow: hidden;
+	background-color: black;
+	border-bottom: 9px solid #ec6806;
+}
+
+/*Ordered List used to organise the naviagtion bar elements*/
+li{
+	float: left;
+	color: white;
+	font-size: 15px;
+	font-family: tahoma;
+	font-weight: bold;
+	display: inline-block;
+}
+
+/*Applies to the anchors of links in lists*/
+li a {
+	padding: 15px 30px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+/*Applies to the content which appears when the cursor hovers over the dropdown li*/
+.dropdown-content {
+	display: none;
+	position: absolute;
+	color: white;
+	font-family: calibri;
+	font-size: 18px;
+	padding: 0px 0px;
+	border-top: 9px solid #ec6806;
+	z-index: 1;
+}
+
+/*Applies to the dropdown content and the li for the drop down content*/
+.dropdown:hover .dropdown-content {
+	display: inline-block;
+	background-color: black;
+	left: 10.5%;
+	width: 79%;
+
+	}
+
+/*Applies to the last li in a series*/
+li a, li:last-child {
+	border-right: none;
+
+}
+
+/*Applies to all li anchors and dropdown li anchors and the dropdown li*/
+li:hover, li a:hover, .dropdown:hover .dropdown {
+	background-color: gray;
+
+}
+
+/*Applies to all anchored lists*/
+li a{
+	border-right: 1px solid #ec6806;
+}
+
+/*Applies to the when an anchor link is defined as active*/
+li a.active {
+	background-color: #ec6806;
+}
+
+
+
+
+
+
+
+
